@@ -1,0 +1,125 @@
+@font-face {
+	font-family: Pacifico;
+	src: url(../../font/Pacifico.ttf);
+}
+
+body {
+	font-family: 18px/36px 'Pacifico', Arial, Helvetica, sans-serif;
+}
+
+.home-page {
+	padding: 120px 0 160px;
+	background: url(../../image/bromo.jpg) no-repeat center fixed;
+	background-size: cover;
+	filter: opacity(80%, rgba(0, 0, 0, .3));
+	font-family: 'Pacifico';
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(25, 7, 27, 0.952);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	filter: contrast(60%) opacity(60%);
+
+}
+
+.header-content {
+	position: relative;
+}
+
+.title-1 {
+	color: white;
+}
+
+.title-2 {
+	color: rgb(253, 155, 98);
+}
+
+.p-1 {
+	color: white;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.reservasi {
+	background-color: rgb(253, 155, 98);
+	color: white;
+}
+
+.reservasi:hover {
+	background-color: transparent;
+	border: solid 1px rgb(253, 155, 98);
+	color: white;
+}
+
+.about {
+	border: solid 1px rgb(253, 155, 98);
+	color: white;
+}
+
+.about:hover {
+	background-color: rgb(253, 155, 98);
+	color: white;
+}
+
+.icon {
+	margin-bottom: 80px;
+	position: relative;
+}
+
+/* about page */
+.title-about {
+	font-family: 'Pacifico';
+	margin-bottom: 50px;
+	color: rgb(253, 155, 98);
+}
+
+.about-page {
+	padding: 165px 400px 200px;
+	background: url(../../image/about-bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+	filter: opacity(80%, rgba(0, 0, 0, .3));
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.back {
+	position: absolute;
+	color: tomato;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+	margin-top: 20px;
+	text-decoration: none;
+	font-family: 'Pacifico';
+}
+
+.back:hover {
+	color: thistle;
+}
+
+/* reservation-page */
+.reservation-page {
+	padding: 80px 450px 70px;
+	background: url(../../image/reserve-bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+	filter: opacity(80%, rgba(0, 0, 0, .3));
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-submit {
+	background-color: rgb(253, 155, 98);
+	color: white;
+	font-family: 'Pacifico';
+}
+
+.btn-submit:hover {
+	background-color: rgb(255, 133, 62);
+	color: white;
+}
